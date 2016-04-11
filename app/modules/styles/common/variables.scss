@@ -1,0 +1,98 @@
+// ==========================================================================
+// Global Variables
+// ==========================================================================
+
+// le Colours
+
+// Descriptive colours:
+$white                  : #FFFFFF;
+$pollutedWind           : #E9E8E8;
+$black                  : #000000;
+$leaflet                : #EFEFEF;
+$offwhite               : #F7F7F7;
+$imdur                  : #F9F9F9;
+$four                   : #444444;
+$justGray               : #4E4E4E;
+$grey                   : #BBBBBB;
+$stack                  : #8E8E8E;
+$darthgray              : #777777;
+$stack                  : #757575;
+$darmstadtium           : #DDDDDD;
+$orange                 : #FFD07E;
+$decipherorange         : #F80;
+$deepblue               : #0086AB;
+$green                  : #4DB980;
+$red                    : #B00200;
+$peach                  : #F0DEDF;
+$rum                    : #FBF8E3;
+$bandyBlue              : #10264A;
+$transparent            : transparent;
+
+// Assignment of colours
+$primary-color             : $bandyBlue;
+$secondary-color           : $white;
+$bg-color                  : $white;
+$bg-secondary-color        : $pollutedWind;
+$text-color                : $justGray;
+$text-color-light          : $white;
+$text-color-alt            : $stack;
+$cancel                    : $darthgray;
+$links                     : $white;
+$editable                  : $decipherorange;
+$borders                   : $grey;
+$borders-light             : $darmstadtium;
+$light                     : $darthgray;
+$span                      : $stack;
+$accent                    : $bandyBlue;
+
+// Buttons
+$btn-primary             : $bandyBlue;
+$btn-dropdown            : $darmstadtium;
+
+// Base Sizes
+$base-font-size          : 16;
+$base-line-height        : 1.25rem;
+$scale                   : 1.5;
+
+// Font Sizes
+
+
+// Border Radius
+$radius                  : 5px;
+$s-radius                : 3px;
+
+// Sizing for the select inputs
+$height                  : 30px;
+$spacing                 : 6px;
+$border-width            : 1px;
+$inner-height: $height - ($border-width * 2);
+
+// Font Stacks
+
+// Sans
+$font-family-sans                : sans-serif;
+// Serifs
+$font-family-serif               : serif;
+// Sans
+//$font-family-cursive             : '', cursive;
+
+// Headings
+$font-family-display          : $font-family-sans;
+
+// Body
+$font-family-body             : $font-family-serif;
+$font-family-body-alt         : $font-family-serif;
+
+// Font Weights
+$fw-light                    : 300;
+$fw-normal                   : 400;
+$fw-semi                     : 700;
+$fw-bold                     : 900;
+
+// Breakpoints
+$mobile-small                 : 240;
+$mobile-large                 : 320;
+$tablet-small                 : 480;
+$tablet-large                 : 768;
+$screen-small                 : 1024;
+$screen-large                 : 1280;
